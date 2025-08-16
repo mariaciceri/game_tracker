@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "dotenv": "^17.2.1",
-    "firebase-functions": "^4.9.0"
+    "firebase-functions": "^4.9.0",
+    "psn-api": "^2.15.0"
   }
 }
