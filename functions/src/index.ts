@@ -274,8 +274,8 @@ export const fetchXboxGames = onRequest(
       });
 
       res.json({
-        games: gamesInfo,
         total: titles.length,
+        games: gamesInfo,
       });
     } catch (error) {
       logger.error("Error fetching Xbox games:", error);
